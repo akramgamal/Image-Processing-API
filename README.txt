@@ -17,3 +17,9 @@ the functionality are:
 3-resize in the middleware logger see if the image we want to resize already exist or not 
   if(already exist) sendFile to browser without resizing image again
   else call resizing function to resize that image and send it
+
+
+Testing with jasmine:
+1- apllied tests on the endpoints using supertest
+2- apllied tests on the availability of images files
+2- applied tests on image resizing function 
