@@ -11,7 +11,7 @@ the endpoints are:
 2=http://localhost:3000/api/images?filename=icelandwaterfall&width=200&height=200 
   to access the image endpoint and resize the image 
 
-the functionality are:
+the functionality is:
 1-validQuery in the middleware validQuery see if the user sent request with filename,width,height or not to continue processing
 2-isFileExist in the middleware logger see if the file that we want to resize is exist or not
 3-resize in the middleware logger see if the image we want to resize already exist or not 
