@@ -7,8 +7,8 @@ The scripts needed to:
 6-"lint":"eslint src/**/*.ts"
 
 the endpoints are:
-1-http://localhost:3000/api to access api main point
-2=http://localhost:3000/api/images?filename=icelandwaterfall&width=200&height=200 
+1-/api to access api main point
+2-/api/images?filename=icelandwaterfall&width=200&height=200 
   to access the image endpoint and resize the image 
 
 the functionality is:
